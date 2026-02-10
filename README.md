@@ -15,10 +15,13 @@ Task 1 must run before Task 2 since Task 2 reads output/results.json.
 Outputs
 All outputs go to output/:
 
-results.json — Top 2 trainers with scores, quotes, and case study angles
-report.html — Visual report with trainer cards and full leaderboard
-leaderboard.csv — All qualifying trainers ranked
-outreach_ready.json — Email drafts ready for automation pickup
+1. results.json: Top 2 trainers with scores, quotes, and case study angles
+   
+2. report.html:  Visual report with trainer cards and full leaderboard
+   
+3. leaderboard.csv: All qualifying trainers ranked
+   
+4. outreach_ready.json: Email drafts ready for automation pickup
 
 Scoring
 trainer_score = 0.6 * overall_avg + 0.4 * late_half_avg
